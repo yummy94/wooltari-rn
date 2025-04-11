@@ -1,0 +1,25 @@
+
+> wooltari-app@0.0.1 start
+> react-native start
+
+
+Welcome to React Native v0.78
+Starting dev server on http://localhost:8081
+
+error listen EADDRINUSE: address already in use :::8081.
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at /Users/hyunkyoyum/Desktop/wooltari_project/wooltari-app/node_modules/metro/src/index.flow.js:336:14
+    at new Promise (<anonymous>)
+    at earlyPortCheck (/Users/hyunkyoyum/Desktop/wooltari_project/wooltari-app/node_modules/metro/src/index.flow.js:332:11)
+    at exports.runServer (/Users/hyunkyoyum/Desktop/wooltari_project/wooltari-app/node_modules/metro/src/index.flow.js:125:9)
+    at Object.runServer [as func] (/Users/hyunkyoyum/Desktop/wooltari_project/wooltari-app/node_modules/@react-native/community-cli-plugin/dist/commands/start/runServer.js:147:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Command.handleAction (/Users/hyunkyoyum/Desktop/wooltari_project/wooltari-app/node_modules/@react-native-community/cli/build/index.js:118:9)
+npm notice
+npm notice New major version of npm available! 10.9.2 -> 11.3.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.3.0
+npm notice To update run: npm install -g npm@11.3.0
+npm notice

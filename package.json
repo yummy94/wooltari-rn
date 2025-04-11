@@ -1,5 +1,5 @@
 {
-  "name": "WooltariApp",
+  "name": "wooltari-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^21.13.0",
+    "@react-native-firebase/functions": "^21.13.0",
+    "@react-native-firebase/messaging": "^21.13.0",
     "react": "19.0.0",
-    "react-native": "0.78.2"
+    "react-native": "0.78.2",
+    "react-native-onesignal": "^4.5.1",
+    "react-native-webview": "^13.13.5"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
